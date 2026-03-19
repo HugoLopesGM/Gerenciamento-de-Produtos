@@ -20,7 +20,7 @@ public class ProdutoService {
       return repositorioProduto.save(produto);
     }
 
-    public List<Produto>ListarTodos(){
+    public List<Produto>listarTodos(){
         return repositorioProduto.findAll();
     }
 
